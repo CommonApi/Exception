@@ -1,0 +1,23 @@
+{
+    "name": "commonapi/exception",
+    "description": "Common Exception Api Interface",
+    "keywords": ["api", "CommonApi", "exception"],
+    "homepage": "https://github.com/CommonApi/Exception",
+    "type": "api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AmyStephen",
+            "email": "AmyStephen@gmail.com",
+            "homepage": "http://Molajo.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.10"
+    },
+    "autoload": {
+        "psr-0": {
+            "CommonApi\\Exception\\": ""
+        }
+    }
+}
