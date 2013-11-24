@@ -1,6 +1,6 @@
 <?php
 /**
- * Out of Range Call Exception
+ * Overflow Exception
  *
  * @package    Exception
  * @copyright  2013 Common Api. All rights reserved.
@@ -8,17 +8,18 @@
  */
 namespace CommonApi\Exception;
 
-use OutOfRangeException as OutOfRange;
+use Exception;
+use OverflowException as Overflow;
 
 /**
- * Out of Range Exception
+ * Overflow Exception
  *
  * @package    Exception
  * @copyright  2013 Common Api. All rights reserved.
  * @license    http://www.opensource.org/licenses/mit-license.html MIT License
  * @since      1.0
  */
-class OutOfRangeException extends OutOfRange implements ExceptionInterface
+class OverflowException extends Overflow implements ExceptionInterface
 {
     /**
      * Class Constructor

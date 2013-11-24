@@ -8,6 +8,7 @@
  */
 namespace CommonApi\Exception;
 
+use Exception;
 use OutOfBoundsException as OutOfBounds;
 
 /**
