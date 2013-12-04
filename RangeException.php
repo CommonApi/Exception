@@ -17,7 +17,7 @@ use RangeException as Range;
  * @package    Exception
  * @copyright  2013 Common Api. All rights reserved.
  * @license    http://www.opensource.org/licenses/mit-license.html MIT License
- * @since      1.0
+ * @since      0.1
  */
 class RangeException extends Range implements ExceptionInterface
 {
@@ -40,7 +40,7 @@ class RangeException extends Range implements ExceptionInterface
      * Custom String Representation of Object
      *
      * @return  string
-     * @since   1.0
+     * @since   0.1
      */
     public function __toString()
     {

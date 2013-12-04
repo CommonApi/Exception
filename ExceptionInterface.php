@@ -14,7 +14,7 @@ namespace CommonApi\Exception;
  * @package    Exception
  * @license    http://www.opensource.org/licenses/mit-license.html MIT License
  * @copyright  2013 Common Api. All rights reserved.
- * @since      1.0
+ * @since      0.1
  */
 interface ExceptionInterface
 {
