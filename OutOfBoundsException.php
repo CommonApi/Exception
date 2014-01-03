@@ -3,7 +3,7 @@
  * Out of Bounds Call Exception
  *
  * @package    Exception
- * @copyright  2013 Common Api. All rights reserved.
+ * @copyright  2014 Amy Stephen. All rights reserved.
  * @license    http://www.opensource.org/licenses/mit-license.html MIT License
  */
 namespace CommonApi\Exception;
@@ -15,9 +15,9 @@ use OutOfBoundsException as OutOfBounds;
  * Out of Bounds Exception
  *
  * @package    Exception
- * @copyright  2013 Common Api. All rights reserved.
+ * @copyright  2014 Amy Stephen. All rights reserved.
  * @license    http://www.opensource.org/licenses/mit-license.html MIT License
- * @since      0.1
+ * @since      1.0
  */
 class OutOfBoundsException extends OutOfBounds implements ExceptionInterface
 {
