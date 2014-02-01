@@ -13,10 +13,10 @@
         }
     ],
     "require": {
-        "php": ">=5.3.10"
+        "php": ">=5.4"
     },
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "CommonApi\\Exception\\": ""
         }
     }
