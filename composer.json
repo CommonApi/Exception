@@ -19,5 +19,11 @@
         "psr-4": {
             "CommonApi\\Exception\\": ""
         }
-    }
+    },
+
+    "archive": {
+        "exclude": ["/.dev"]
+    },
+
+    "minimum-stability": "dev"
 }
