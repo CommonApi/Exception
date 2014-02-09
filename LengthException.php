@@ -40,7 +40,7 @@ class LengthException extends Length implements ExceptionInterface
      * Custom String Representation of Object
      *
      * @return  string
-     * @since   0.1
+     * @since   1.0
      */
     public function __toString()
     {
