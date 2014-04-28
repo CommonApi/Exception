@@ -12,9 +12,7 @@
             "homepage": "http://Molajo.org"
         }
     ],
-    "require": {
-        "php": ">=5.4"
-    },
+    "require": {},
     "autoload": {
         "psr-4": {
             "CommonApi\\Exception\\": ""
