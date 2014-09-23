@@ -30,6 +30,7 @@ class DomainException extends Domain implements ExceptionInterface
      *
      * @link   http://php.net/manual/en/exception.construct.php
      * @link   http://php.net/manual/en/language.exceptions.extending.php
+     * @since  1.0.0
      */
     public function __construct($message = null, $code = 0, Exception $previous = null)
     {
@@ -40,7 +41,7 @@ class DomainException extends Domain implements ExceptionInterface
      * Custom String Representation of Object
      *
      * @return  string
-     * @since   1.0
+     * @since   1.0.0
      */
     public function __toString()
     {

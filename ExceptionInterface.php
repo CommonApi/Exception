@@ -18,5 +18,11 @@ namespace CommonApi\Exception;
  */
 interface ExceptionInterface
 {
+    /**
+     * Convert to String
+     *
+     * @return  string
+     * @since   1.0.0
+     */
     public function __toString();
 }

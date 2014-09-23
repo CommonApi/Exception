@@ -40,7 +40,7 @@ class OverflowException extends Overflow implements ExceptionInterface
      * Custom String Representation of Object
      *
      * @return  string
-     * @since   1.0
+     * @since   1.0.0
      */
     public function __toString()
     {
