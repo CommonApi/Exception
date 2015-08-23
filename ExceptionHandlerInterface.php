@@ -1,6 +1,6 @@
 <?php
 /**
- * Exception Interface
+ * Exception Handler Interface
  *
  * @package    Http
  * @license    http://www.opensource.org/licenses/mit-license.html MIT License
@@ -9,20 +9,22 @@
 namespace CommonApi\Exception;
 
 /**
- * Exception Interface
+ * Exception Handler Interface
  *
  * @package    Exception
  * @license    http://www.opensource.org/licenses/mit-license.html MIT License
  * @copyright  2014-2015 Amy Stephen. All rights reserved.
  * @since      1.0
  */
-interface ExceptionInterface
+interface ExceptionHandlerInterface
 {
     /**
-     * Convert to String
+     * Handle PHP Exception
      *
-     * @return  string
+     * @param   array  $options
+     *
+     * @return  boolean|null
      * @since   1.0.0
      */
-    public function __toString();
+    public function handleException(array $options);
 }
